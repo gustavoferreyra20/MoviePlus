@@ -1,0 +1,46 @@
+
+h1{
+    color: black;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.bloque{
+    background-color: white;
+    color: black;
+    margin-bottom: 2em;
+    
+}
+
+.bloque tr:nth-child(even){background-color: #f2f2f2;}
+
+.bloque tr:hover {background-color: #ddd;}
+
+main{
+      padding-top: 3em;
+      padding-bottom: 1em;
+}
+.navbar-custom{
+    background-color:black;
+}
+footer{
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+html, body {
+    position: relative;
+    min-height: 100vh;
+    background-color: lightskyblue;
+ }
+
+ ul, li {
+    display:inline
+}
+
+li.right{
+    float: right;
+}
